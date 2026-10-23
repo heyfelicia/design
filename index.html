@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Felicia Phillips">
+    <title>Felicia Phillips</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.typekit.net/wfd1msr.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23FF6B35'><path d='M12 2L14.5 9.5L22 12L14.5 14.5L12 22L9.5 14.5L12 22L9.5 14.5L2 12L9.5 9.5L12 2Z'/></svg>">
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <header class="hero-nav">
+            <a href="#" class="logo">Felicia Phillips</a>
+            <nav class="nav-links">
+                <a href="#" class="nav-link">Work</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Contact</a>
+            </nav>
+        </header>
+
+        <div class="carousel-track">
+            <!-- Slide 1 -->
+            <div class="carousel-slide active">
+                <div class="hero-content">
+                    <div class="hero-left">
+                        <div class="hero-title-wrap">
+                            <span class="hero-flower">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2L14.5 9.5L22 12L14.5 14.5L12 22L9.5 14.5L12 22L9.5 14.5L2 12L9.5 9.5L12 2Z" />
+        </svg>
+                            </span>
+                            <h1 class="hero-title">Hello! I'm Felicia. I Design,<br>
+                <em>Code</em> & Illustrate.</h1>
+                        </div>
+                    </div>
+                    <div class="hero-info">
+                        <p>Creating immersive web experiences and brand identities that leave a lasting impact.</p>
+                        <a href="#" class="hero-button">Explore Work <span>→</span></a>
+                    </div>
+                </div>
+
+                 <div class="hero-services">
+             <span>UI/UX DESIGN</span>
+            <span>FRONT-END DEVELOPMENT</span>
+            <span>ILLUSTRATION</span>
+            <span>BRANDING</span>
+        </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-slide">
+                <div class="hero-content-workshop">
+                    <div class="hero-title-wrap">
+                        <span class="hero-flower">✦</span>
+                        <h1 class="hero-title">Design <em>Workshop</em></h1>
+                    </div>
+                    <div class="hero-media">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80" alt="Workshop" class="workshop-img">
+                    </div>
+                    <div class="hero-info">
+                        <p>Collaborative sessions focused on accelerating your product vision from idea to reality.</p>
+                        <a href="#" class="hero-button">Sign Up<span>→</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service Badges -->
+    
+
+        <!-- Bottom Controls -->
+        <div class="hero-bottom-controls">
+            <div class="carousel-controls">
+                <button class="carousel-arrow prev" aria-label="Previous slide">←</button>
+                <div class="carousel-dots">
+                    <button class="dot active" data-index="0"></button>
+                    <button class="dot" data-index="1"></button>
+                </div>
+                <button class="carousel-arrow next" aria-label="Next slide">→</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects">
+        <div class="project project-1"></div>
+        <div class="project project-2"></div>
+        <div class="project project-3"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#" class="brand-name">Brand</a>
+            </div>
+            <nav class="footer-nav">
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Instagram</a>
+            </nav>
+            <div class="footer-form">
+                <div class="input-group">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Chatbot -->
+    <button class="chatbot" aria-label="Open assistant">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2L14.5 9.5L22 12L14.5 14.5L12 22L9.5 14.5L12 22L9.5 14.5L2 12L9.5 9.5L12 2Z" />
+        </svg>
+    </button>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal-backdrop">
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <div class="modal-body">
+                <h2>Project Details</h2>
+                <p>Detailed project information goes here...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="scripts.js">
+    </script>
+</body>
+</html>
